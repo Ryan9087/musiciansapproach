@@ -16,6 +16,7 @@
   </head>
 
   <body>
+    
     <div class="container containerExtras">
       <div class="row">
         <div class="col">
@@ -23,25 +24,28 @@
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
+                    <a href="classicalGuitar.html">
                   <img src="images/classical_guitar.jpg" class="d-block w-100" alt="..." />
                   <div class="carousel-caption d-none d-md-block carouselPosition">
                     <h3 class="slideTitle">Classical Guitar Lessons</h3>
                     <p>From John Williams to Andres Segovia, scales open doors</p>
-                  </div>
+                  </div></a>
                 </div>
                 <div class="carousel-item">
+                    <a href="rockGuitar.html">
                   <img src="images/rock_guitar.jpg" class="d-block w-100" alt="..." />
                   <div class="carousel-caption d-none d-md-block carouselPosition">
                     <h3 class="slideTitle">Rock Guitar Lessons</h3>
                     <p>From Andy Summers to Eddie Van Halen, rock requires personality</p>
-                  </div>
+                  </div></a>
                 </div>
                 <div class="carousel-item">
+                    <a href="jazzGuitar.html">
                   <img src="images/jazz_guitar.jpg" class="d-block w-100" alt="..." />
                   <div class="carousel-caption d-none d-md-block carouselPosition">
                     <h3 class="slideTitle">Jazz Guitar Lessons</h3>
                     <p>From Wes Montgomery to Bill Frisell, music theory builds your foundation</p>
-                  </div>
+                  </div></a>
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -93,10 +97,12 @@
                     Your Approach
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                      <a class="dropdown-item" href="beginner.html">Beginner Lessons</a>
+                      <a class="dropdown-item" href="intermediate.html">Intermediate Lessons</a>
+                      <a class="dropdown-item" href="advanced.html">Advanced Lessons</a>
+                    <a class="dropdown-item" href="jazzGuitar.html">Jazz Lessons</a>
+                    <a class="dropdown-item" href="classicalGuitar.html">Classical Lessons</a>
+                    <a class="dropdown-item" href="rockGuitar.html">Rock Lessons</a>
                   </div>
                 </li>
               </ul>
@@ -119,6 +125,7 @@
           </div>
         </div>
       </div>
+
       <div id="loginModal" class="modal fade" role="dialog">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
@@ -218,18 +225,18 @@
               </div>
           </div>
       </div>
-
+  
       <div class="row d-flex justify-content-center">
         <div class="col-md-4 col-lg-3 align-items-stretch">
           <div class="card h-100">
             <img src="images/Beginner.jpg" class="card-img-top" alt="..." />
 
-            <div class="card-body align-self-stretch">
+            <div class="card-body d-flex flex-column">
               <h4 class="card-title">Beginner Lessons</h4>
               <p class="card-text">
                 In the beginning it is important to gain confidence. Get started quickly with the simple yet satisfying lessons. 
               </p>
-              <a href="beginner.html" class="btn btn-primary">Beginner Lessons</a>
+              <a href="beginner.html" class="btn btn-primary mt-auto">Beginner Lessons</a>
             </div>
           </div>
         </div>
@@ -237,12 +244,12 @@
         <div class="col-md-4 col-lg-3 align-items-stretch">
           <div class="card h-100">
             <img src="images/Intermediate.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
+            <div class="card-body d-flex flex-column">
               <h4 class="card-title">Intermediate Lessons</h4>
               <p class="card-text">
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="intermediate.html" class="btn btn-primary mt-auto">Intermediate Lessons</a>
             </div>
           </div>
         </div>
@@ -250,12 +257,12 @@
         <div class="col-md-4 col-lg-3 align-items-stretch">
           <div class="card h-100">
             <img src="images/Adanvced.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
+            <div class="card-body d-flex flex-column">
               <h4 class="card-title">Advanced Lessons</h4>
               <p class="card-text">
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="advanced.html" class="btn btn-primary mt-auto">Advanced Lessons</a>
             </div>
           </div>
         </div>
@@ -295,7 +302,7 @@
               </div>
           </div>
       </footer>
-
+    </div>
     <!-- JavaScript Stuff-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>

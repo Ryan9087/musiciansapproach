@@ -62,10 +62,6 @@ body {
   margin: 0;
 }
 
-/* .rowExtras {
-  align-items: stretch;
-} */
-
 .jumboExtras {
   background-color: white;
   border-top: 7px solid #7e8d85;
@@ -146,4 +142,15 @@ label.btn.active {
 
 .card a {
   align-items: baseline;
+}
+
+#audioPlayer {
+  width: 100%;
+  background-color: rgba(60, 73, 63, 1)!important;
+}
+
+.creditText {
+  font-size: 8pt;
+  padding: 0;
+  margin: -3px 0 5px;
 }
