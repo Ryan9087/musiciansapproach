@@ -24,13 +24,13 @@ $aguaGreen: rgba(162, 227, 196, 1);
 @font-face {
   font-family: "Hydrant";
   url("font/Hydrant inline shadow grunge.otf") format("opentype"),
-  }
-
+}
 
 * {
   font-family: "Raleway", sans-serif;
   color: #7e8d85;
 }
+
 
 .navbar-text a, .nav-item a {
   cursor: pointer;
@@ -64,13 +64,16 @@ body {
 
 .jumboExtras {
   background-color: white;
-  border-top: 7px solid #7e8d85;
-  padding: 0px 15px;
+  border-top: 2px solid #b3bfb8;
+  padding: 0px 25px;
+
 }
 
 .containerExtras {
   background-color: white;
   padding: 0px;
+  border: 1px solid white;
+  box-shadow: 5x 5px 5px rgba(240, 247, 244, 1);
 }
 
 #subText {
@@ -80,6 +83,11 @@ body {
 button,
 .btn {
   background: #3c493f;
+  border: none;
+}
+
+.card-body .btn {
+  background:  #7e8d85;
   border: none;
 }
 
@@ -98,7 +106,7 @@ button:active,
 }
 
 .site-footer {
-  padding: 70px 5px 5px 5px;
+  padding: 50px 5px 0 5px;
   border: none;
 }
 
@@ -153,4 +161,45 @@ label.btn.active {
   font-size: 8pt;
   padding: 0;
   margin: -3px 0 5px;
+}
+
+.span4 img {
+  margin-right: 10px;
+}
+
+.span4 .img-left {
+  float: left;
+}
+
+.span4 .img-right {
+  float: right;
+}
+
+.progress-bar  {
+  background-color: #7e8d85;
+}
+
+.dropdown-menu a {
+  font-size: 10pt;
+  color: #3c493f;
+  padding-left: 12px;
+}
+
+p.openingText {
+  font-size: 13pt;
+}
+
+.cardImage {
+  width: 120px;
+  height: auto;
+  margin: 10px auto 15px auto;
+  display: block;
+}
+
+.barStarHome {
+  width: 100%;
+  margin: 0 0 0px 0;
+  position: absolute;
+  top: -5;
+  left: 0;
 }

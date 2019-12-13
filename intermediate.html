@@ -5,13 +5,15 @@
         <meta charset="utf-8" />
 
         <title>Musicians Approach</title>
-        <meta name="description" content="My JS Site" />
-        <meta name="Ryan" content="Stuff" />
+        <meta name="Musicians Approach" content="Guitar Lessons" />
 
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-        <link href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps|Raleway&display=swap" rel="stylesheet"> 
+        <link
+            href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps|Raleway&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
 
@@ -39,7 +41,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                                <a class="nav-link" data-toggle="modal" data-target="#contactModal">Contact</a>
+                            <a class="nav-link" data-toggle="modal" data-target="#contactModal">Contact</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a
@@ -54,15 +56,15 @@
                                 Your Approach
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="beginner.html">Beginner Lessons</a>
-                                    <a class="dropdown-item" href="intermediate.html">Intermediate Lessons</a>
-                                    <a class="dropdown-item" href="advanced.html">Advanced Lessons</a>
-                                  <a class="dropdown-item" href="jazzGuitar.html">Jazz Lessons</a>
-                                  <a class="dropdown-item" href="classicalGuitar.html">Classical Lessons</a>
-                                  <a class="dropdown-item" href="rockGuitar.html">Rock Lessons</a>
+                                <a class="dropdown-item" href="beginner.html">Beginner Lessons</a>
+                                <a class="dropdown-item" href="intermediate.html">Intermediate Lessons</a>
+                                <a class="dropdown-item" href="advanced.html">Advanced Lessons</a>
+                                <a class="dropdown-item" href="musicTheory.html">Music Theory Lessons</a>
+                                <a class="dropdown-item" href="jazzGuitar.html">Jazz Lessons</a>
+                                <a class="dropdown-item" href="classicalGuitar.html">Classical Lessons</a>
+                                <a class="dropdown-item" href="rockGuitar.html">Rock Lessons</a>
                             </div>
                         </li>
-     
                     </ul>
                     <span class="navbar-text ml-auto">
                         <a data-toggle="modal" data-target="#loginModal">
@@ -73,61 +75,99 @@
                 </div>
             </nav>
             <div id="contactModal" class="modal fade" role="dialog">
-                    <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header text-white modalMaster">
-                                <h3 class="modal-title">Contact Us</h3>
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="container-fluid">
-                                        <form>
-                                                <div class="form-group row">
-                                                  <label for="name" class="col-sm-4 col-form-label labelText">Name</label>
-                                                  <div class="col-sm-8">
-                                                    <input type="text" class="form-control" id="inputPassword3">
-                                                  </div>
-                                                </div>
-                                                <div class="form-group row">
-                                                    <label for="option1 option2 option3 option4" class="col-sm-4 col-form-label labelText">About</label>
-                                                    <div class="btn-group btn-group-toggle col-sm-8" data-toggle="buttons">
-                                                            <label class="btn active">
-                                                              <input type="radio" name="options" id="option1" checked>Membership
-                                                            </label>
-                                                            <label class="btn">
-                                                                <input type="radio" name="options" id="option2" checked>Payment
-                                                              </label>
-                                                            <label class="btn">
-                                                              <input type="radio" name="options" id="option3">Site Issues
-                                                            </label>
-                                                         <label class="btn">
-                                                                <input type="radio" name="options" id="option4">Feedback
-                                                              </label>
-                                                          </div>
-                                                  </div>
-                                                <div class="form-group row">
-                                                    <label for="message" class="col-sm-4 col-form-label labelText">Message</label>
-                                                    <div class="col-sm-8">
-                                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-                                                    </div>
-                                                  </div>
-                                             
-                                                <div class="form-group row d-flex justify-content-start">
-                                                  <div class="col-sm-1 mr-4">
-                                                    <button type="submit" class="btn btn-secondary">Send</button>
-                                                  </div>
-                                               
-                                                </div>
-                                              </form>
-                                </div>
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header text-white modalMaster">
+                            <h3 class="modal-title">Contact Us</h3>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <form>
+                                    <div class="form-group row">
+                                        <label for="name" class="col-sm-4 col-form-label labelText">Name</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control" id="inputPassword3" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label
+                                            for="option1 option2 option3 option4"
+                                            class="col-sm-4 col-form-label labelText"
+                                        >
+                                            About
+                                        </label>
+                                        <div class="btn-group btn-group-toggle col-sm-8" data-toggle="buttons">
+                                            <label class="btn active">
+                                                <input type="radio" name="options" id="option1" checked />
+                                                Membership
+                                            </label>
+                                            <label class="btn">
+                                                <input type="radio" name="options" id="option2" checked />
+                                                Payment
+                                            </label>
+                                            <label class="btn">
+                                                <input type="radio" name="options" id="option3" />
+                                                Site Issues
+                                            </label>
+                                            <label class="btn">
+                                                <input type="radio" name="options" id="option4" />
+                                                Feedback
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="message" class="col-sm-4 col-form-label labelText">Message</label>
+                                        <div class="col-sm-8">
+                                            <textarea
+                                                class="form-control"
+                                                id="exampleFormControlTextarea1"
+                                                rows="6"
+                                            ></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row d-flex justify-content-start">
+                                        <div class="col-sm-1 mr-4">
+                                            <button type="submit" class="btn btn-secondary">Send</button>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
             <div class="jumbotron jumbotron-fluid pt-4 pb-1 mb-0 jumboExtras">
                 <h1 class="display-5 scriptMaster" style="color: #223038; padding: 6px 0 6px 0;">Musicians Approach</h1>
-                <p class="font-weight-bold" id="subText">Intermediate Lessons</p>
+            </div>
+            <div class="block mt-4 mx-3">
+                <div class="row">
+                    <img class="img-left pl-5" src="images/intermediateBadge.png" />
+                    <div class="content-heading pl-3 pt-5">
+                        <h3>Intermediate Lessons</h3>
+                        <p>
+                            It's very hard to motivate yourself and others with only one goal, that's why intermediate
+                            goals are so important.
+                        </p>
+                    </div>
+                </div>
+                <div class="row my-4 justify-content-md-center">
+                    <div class="col-11">
+                        <h5 class="px-2">Overall Progress</h5>
+                        <div class="progress mb-4">
+                            <div
+                                class="progress-bar pbarColor"
+                                role="progressbar"
+                                style="width: 15%"
+                                aria-valuenow="25"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                            ></div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div id="loginModal" class="modal fade" role="dialog">
                 <div class="modal-dialog" role="document">
@@ -184,63 +224,82 @@
 
             <div class="row d-flex justify-content-around rowEtras">
                 <div class="col">
-                    <div class="card p-4">
+                    <div class="card p-4 border-0">
                         <h4 class="card-title pb-1">The major scale (Ionian)</h4>
                         <img src="images/scalesAeolian.jpg" class="card-img-top img-fluid" alt="..." />
 
                         <div class="card-body">
                             <p class="card-text">
-                          The minor scale (or Aolian scale) in the key of G is E minor (E Aolian). This scale has the same notes as the G major scale but starts on the E note. 
-                          </p>
-                            <p>The E minor scale would be written as E F# G A B C D E. </p>
-                            <p>Practic listening to the same backing track below from the beginnner lesson and now when the track comes to the the third minor chord (E minor), try using the E minor scale pattern. You can also use this scale over the rest of the song (you are still playing the same notes from G), but listen to the difference when you are playing over the first two chords versus the third minor chord.</p>
-                          
-                        <div>
-                            <audio controls="controls" id="audioPlayer">
+                                The minor scale (or Aolian scale) in the key of G is E minor (E Aolian). This scale has
+                                the same notes as the G major scale but starts on the E note.
+                            </p>
+                            <p>The E minor scale would be written as E F# G A B C D E.</p>
+                            <p>
+                                Practic listening to the same backing track below from the beginnner lesson and now when
+                                the track comes to the the third minor chord (E minor), try using the E minor scale
+                                pattern. You can also use this scale over the rest of the song (you are still playing
+                                the same notes from G), but listen to the difference when you are playing over the first
+                                two chords versus the third minor chord.
+                            </p>
+
+                            <div>
+                                <audio controls="controls" id="audioPlayer">
                                     <source src="music/acousticGuitar.mp3" type="audio/mpeg" />
-                                  Your browser does not support the audio element.
-                            </audio>
-                        </div>
-                            <a href="advanced.html" class="btn btn-primary mt-5">Advanced Lessons</a>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                            <p class="mt-5">
+                                    Now that you have taken our intermediate lessons, move on to our advanced lessons to keep the momentum.
+                                </p>
+                            <a href="advanced.html" class="btn btn-primary mt-1">Advanced Lessons</a>
                         </div>
                     </div>
                 </div>
             </div>
 
             <footer class="site-footer">
-                    <div class="container">
-                        <div class="row row-content">
-                            <div class="col-4 text-center">
-                                <h5>Links</h5>
-                                <ul class="list-unstyled">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                    <li><a href="#">Login</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-4 text-center">
-                                <h5>Social</h5>
-                                <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
-                                        class="fa fa-instagram"></i></a>
-                                <a class="btn btn-social-icon btn-instagram" href="http://facebook.com/"><i
-                                        class="fa fa-facebook"></i></a>
-                                <a class="btn btn-social-icon btn-instagram" href="http://twitter.com/"><i
-                                        class="fa fa-twitter"></i></a>
-                                <a class="btn btn-social-icon btn-instagram" href="http://youtube.com/"><i
-                                        class="fa fa-youtube"></i></a>
-                            </div>
-                            <div class="col-sm-4 text-center">
-                              <div class="footerContact">
-                                <a href="tel:+12065551234"><i class="fa fa-phone"></i>
-                                    <span class="footerContactInfo">1-214-555-1234</span></a><br />
-                                <a href="mailto:campsites@nucamp.co"><i
-                                        class="fa fa-envelope-o"></i> <span class="footerContactInfo">info@musiciansapproach.com</span></a>
-                          </div>  
+                <div class="container">
+                    <div class="row row-content">
+                        <div class="col-sm-12 col-md-4 text-center mb-3">
+                            <h5>Links</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#loginModal">Login</a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#contactModal">Contact</a></li>
+                            </ul>
                         </div>
+                        <div class="col-sm-12 col-md-4 text-center mb-3">
+                            <h5>Social</h5>
+                            <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <a class="btn btn-social-icon btn-instagram" href="http://facebook.com/">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a class="btn btn-social-icon btn-instagram" href="http://twitter.com/">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a class="btn btn-social-icon btn-instagram" href="http://youtube.com/">
+                                <i class="fa fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-4 text-center mb-3">
+                            <div class="footerContact">
+                                <a href="tel:+12065551234">
+                                    <i class="fa fa-phone"></i>
+                                    <span class="footerContactInfo">1-214-555-1234</span>
+                                </a>
+                                <br />
+                                <a href="mailto:campsites@nucamp.co">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <span class="footerContactInfo">info@musiciansapproach.com</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </footer>
+                </div>
+            </footer>
+        </div>
 
         <!-- JavaScript Stuff-->
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
